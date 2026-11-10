@@ -1,0 +1,19 @@
+# KiCad
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.kicad_pro.lock
+*-backups/
+fp-info-cache
+*.bak
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Папки сборки и отчетов (если будете генерировать)
+/gerbers/
+/build/
+*.pdf
+!README.pdf

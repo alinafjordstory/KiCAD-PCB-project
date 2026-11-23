@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "posad_lib") (type "KiCad") (uri "D:/KiCAD PCB project/libs/footprints/posad_lib.pretty") (options "") (descr ""))
+)

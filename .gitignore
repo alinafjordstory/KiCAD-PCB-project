@@ -12,8 +12,12 @@ fp-info-cache
 .DS_Store
 Thumbs.db
 
-# Папки сборки и отчетов (если будете генерировать)
+# Папки сборки и отчетов
 /gerbers/
 /build/
 *.pdf
 !README.pdf
+
+# Игнорировать папки истории KiCad
+.history/
+PCB_Danilina/.history/

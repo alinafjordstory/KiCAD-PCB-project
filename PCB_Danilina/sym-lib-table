@@ -1,0 +1,12 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "530480310") (type "KiCad") (uri "D:/KiCAD PCB project/libs/symbols/530480310.kicad_sym") (options "") (descr ""))
+	(lib (name "INA118UB") (type "KiCad") (uri "D:/KiCAD PCB project/libs/symbols/INA118UB.kicad_sym") (options "") (descr ""))
+	(lib (name "L78L05ACUTR_STM") (type "KiCad") (uri "D:/KiCAD PCB project/libs/symbols/L78L05ACUTR_STM.kicad_sym") (options "") (descr ""))
+	(lib (name "OPA2277UA") (type "KiCad") (uri "D:/KiCAD PCB project/libs/symbols/OPA2277UA.kicad_sym") (options "") (descr ""))
+	(lib (name "symbol_lib") (type "KiCad") (uri "D:/KiCAD PCB project/libs/symbols/symbol_lib.kicad_sym") (options "") (descr ""))
+	(lib (name "CAP_GRM31") (type "KiCad") (uri "D:/KiCAD PCB project/libs/symbols/CAP_GRM31.kicad_sym") (options "") (descr ""))
+	(lib (name "CAP_GRM155R") (type "KiCad") (uri "D:/KiCAD PCB project/libs/symbols/CAP_GRM155R.kicad_sym") (options "") (descr ""))
+	(lib (name "CAP_GRM1885") (type "KiCad") (uri "D:/KiCAD PCB project/libs/symbols/CAP_GRM1885.kicad_sym") (options "") (descr ""))
+	(lib (name "RC0603FR_0730KL") (type "KiCad") (uri "D:/KiCAD PCB project/libs/symbols/RC0603FR_0730KL.kicad_sym") (options "") (descr ""))
+)

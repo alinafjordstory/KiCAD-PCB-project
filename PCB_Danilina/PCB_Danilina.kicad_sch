@@ -11,185 +11,6 @@
 		(comment 2 "Данилина А.А.")
 	)
 	(lib_symbols
-		(symbol "L78L05ACUTR_1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "DA1"
-				(at 8.89 13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L78L05ACUTR"
-				(at 8.89 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "posad_lib:L78L05ACUTR_STM"
-				(at 13.97 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/l78l.pdf"
-				(at 31.75 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "L78L05ACUTR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "L78L05ACUTR_STM L78L05ACUTR_STM-M L78L05ACUTR_STM-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L78L05ACUTR_1_1_1"
-				(rectangle
-					(start 0 12.7)
-					(end 17.78 0)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 12.7) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.43 12.7) (xy 11.43 0)
-					)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -7.62 8.89 0)
-					(length 7.62)
-					(name "Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 3.81 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 25.4 8.89 180)
-					(length 7.62)
-					(name "Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+15V"
 			(power global)
 			(pin_numbers
@@ -1501,7 +1322,7 @@
 				)
 			)
 			(property "Footprint" "posad_lib:INA118UB_N"
-				(at 15.24 -5.08 0)
+				(at 12.7 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1533,7 +1354,30 @@
 					)
 				)
 			)
+			(property "Manufacturer_Part_Number" "INA118U/2K5"
+				(at 8.89 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "INA118_my_0_1"
+				(polyline
+					(pts
+						(xy 8.89 19.05) (xy 10.16 17.78) (xy 8.89 16.51) (xy 8.89 19.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 13.97 16.51) (xy 13.97 16.51)
@@ -1730,6 +1574,204 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbol_lib:L78L05ACUTR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "DA1"
+				(at 8.89 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L78L05ACUTR"
+				(at 8.89 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "posad_lib:L78L05ACUTR_STM"
+				(at 13.97 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/l78l.pdf"
+				(at 31.75 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_Part_Number" "UMW L78L05A"
+				(at 8.89 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L78L05ACUTR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "L78L05ACUTR_STM L78L05ACUTR_STM-M L78L05ACUTR_STM-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L78L05ACUTR_1_1"
+				(rectangle
+					(start 0 12.7)
+					(end 17.78 0)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 12.7) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 12.7) (xy 11.43 0)
+					)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "*STU"
+					(at 8.89 10.16 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 8.89 0)
+					(length 7.62)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 3.81 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 25.4 8.89 180)
+					(length 7.62)
+					(name "Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbol_lib:OPA2277UA"
 			(pin_names
 				(offset 0.254)
@@ -1794,10 +1836,11 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "OPA2277U"
+				(at 8.89 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1827,6 +1870,18 @@
 				)
 			)
 			(symbol "OPA2277UA_0_1"
+				(polyline
+					(pts
+						(xy 8.89 22.86) (xy 10.16 21.59) (xy 8.89 20.32) (xy 8.89 22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin output line
 					(at 25.4 13.97 180)
 					(length 7.62)
@@ -2563,7 +2618,7 @@
 		(uuid "17d530a3-b639-48db-b39d-27c8cc2dd224")
 	)
 	(junction
-		(at 71.12 107.95)
+		(at 68.58 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30b14ca7-b8c1-471b-97d3-53eb2873f4d6")
@@ -2714,7 +2769,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 107.95) (xy 74.93 107.95)
+			(xy 68.58 107.95) (xy 74.93 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2801,16 +2856,6 @@
 			(type default)
 		)
 		(uuid "57b729ff-d0b4-4ced-af28-3ff9e0d4370c")
-	)
-	(wire
-		(pts
-			(xy 118.11 82.55) (xy 118.11 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57ebd0e4-3259-4d12-8734-9467b5305a96")
 	)
 	(wire
 		(pts
@@ -3034,6 +3079,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 82.55) (xy 118.11 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de43235a-b3f2-43ff-b384-fe9ba5fddc17")
+	)
+	(wire
+		(pts
 			(xy 105.41 66.04) (xy 105.41 64.77)
 		)
 		(stroke
@@ -3071,6 +3126,96 @@
 			(type default)
 		)
 		(uuid "fafce276-b02f-4774-86b6-aa8be6984766")
+	)
+	(label "Analog_signal_3"
+		(at 171.45 72.39 270)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right bottom)
+		)
+		(uuid "1c5e63bf-acf0-4e76-8fa7-468f3652190a")
+	)
+	(label "GND_X3"
+		(at 111.76 97.79 180)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right bottom)
+		)
+		(uuid "22e0c9ac-f6b3-4910-8f8c-c5625569277a")
+	)
+	(label "Power_1"
+		(at 69.85 107.95 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "37ff2c95-996e-472b-a635-3ec5f914aeae")
+	)
+	(label "Power_3"
+		(at 134.62 76.2 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "5783cd25-900b-4fe0-9110-a0143eed2fdb")
+	)
+	(label "Analog_signal_1_2"
+		(at 107.95 107.95 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "8519f369-8f61-475d-b067-c4654e5db105")
+	)
+	(label "Input_X2"
+		(at 114.3 64.77 180)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right bottom)
+		)
+		(uuid "99ca745b-19f4-4370-8395-42abda9615a1")
+	)
+	(label "Analog_signal_2"
+		(at 156.21 111.76 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5c7f790-42f2-4020-9d61-e28a85b29f27")
+	)
+	(label "Input_X1"
+		(at 114.3 60.96 180)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right bottom)
+		)
+		(uuid "dcd2d07b-42e5-47eb-be0a-b8b40e9f3e62")
+	)
+	(label "Power_2"
+		(at 114.3 115.57 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "de9af881-6db4-41b5-8885-d6d19b0272b1")
 	)
 	(symbol
 		(lib_id "symbol_lib:R1_my")
@@ -3610,7 +3755,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 71.12 107.95 0)
+		(at 68.58 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3620,7 +3765,7 @@
 		(dnp no)
 		(uuid "504c01a2-9b10-48ea-8df9-4d19a70abb04")
 		(property "Reference" "#FLG05"
-			(at 71.12 106.045 0)
+			(at 68.58 106.045 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3631,7 +3776,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 65.024 106.172 0)
+			(at 62.484 106.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3642,7 +3787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 107.95 0)
+			(at 68.58 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3653,7 +3798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 107.95 0)
+			(at 68.58 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3664,7 +3809,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 71.12 107.95 0)
+			(at 68.58 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3766,7 +3911,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 71.12 107.95 90)
+		(at 68.58 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3777,7 +3922,7 @@
 		(fields_autoplaced yes)
 		(uuid "59e577bc-8db2-4a55-99f4-82f34d9d49f2")
 		(property "Reference" "#PWR06"
-			(at 74.93 107.95 0)
+			(at 72.39 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3788,7 +3933,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 67.31 107.9499 90)
+			(at 64.77 107.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3799,7 +3944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 107.95 0)
+			(at 68.58 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3810,7 +3955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 107.95 0)
+			(at 68.58 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3821,7 +3966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 71.12 107.95 0)
+			(at 68.58 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3866,7 +4011,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 118.745 82.55 0)
+			(at 118.872 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4883,7 +5028,6 @@
 		)
 	)
 	(symbol
-		(lib_name "L78L05ACUTR_1")
 		(lib_id "symbol_lib:L78L05ACUTR")
 		(at 82.55 116.84 0)
 		(unit 1)
@@ -5080,7 +5224,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 126.365 82.55 0)
+			(at 126.746 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -4,6 +4,7 @@
 *.kicad_prl
 *.kicad_pro.lock
 *-backups/
+*_restore_backup_*/
 fp-info-cache
 *.bak
 *.tmp
